@@ -1,7 +1,7 @@
 import { Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
-import Logo from '/logos/ANR_200.png';
+import Logo from '/images/logos/ANR_200.png';
 
 export const Header = () => {
   const handleDownload = () => {
