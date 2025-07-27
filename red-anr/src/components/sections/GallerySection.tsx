@@ -1,4 +1,3 @@
-import React from 'react';
 import galleryData from '@/data/gallerySection.json';
 
 
