@@ -138,10 +138,11 @@ export const HeroSection = () => {
         className="w-full"
         opts={{  
           containScroll: false,
-          loop: false,
+          loop: true,
         }} 
         
         plugins={[ 
+          Autoplay({delay: 5000}),
           Fade()
         ]}
       >
