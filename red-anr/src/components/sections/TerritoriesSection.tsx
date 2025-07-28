@@ -4,7 +4,7 @@ export const TerritoriesSection = () => {
   return (
     <section className="py-16 px-4">
       <div className="container mx-auto">
-        <div className="bg-gradient-to-r from-primary to-accent rounded-2xl p-12 text-primary-foreground text-center">
+        <div className="bg-gradient-to-b from-primary to-accent rounded-2xl p-12 text-primary-foreground text-center">
           <h3 className="text-4xl font-bold mb-6 font-dancing">
             "La apicultura regenerativa trasciende fronteras y conecta territorios"
           </h3>
