@@ -8,6 +8,7 @@ import { DigitalContentSection } from '@/components/sections/DigitalContentSecti
 import { CoursesSection } from '@/components/sections/CoursesSection';
 import { ProductsSection } from '@/components/sections/ProductsSection';
 import { ContactSection } from '@/components/sections/ContactSection';
+import { ServiceSection } from '@/components/sections/ServiceSection';
 import { Footer } from '@/components/sections/Footer';
 
 const Index = () => {
@@ -17,11 +18,12 @@ const Index = () => {
       <HeroSection />
       <PrinciplesSection />
       <MembersSection />
+      <ProductsSection />
       <GallerySection />
+      <ServiceSection />
       <TerritoriesSection />
       <DigitalContentSection />
       <CoursesSection />
-      <ProductsSection />
       <ContactSection />
       <Footer />
     </div>
