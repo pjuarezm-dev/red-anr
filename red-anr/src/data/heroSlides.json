@@ -26,8 +26,12 @@
     },
     "title": "Kunu", 
     "content": "Productos apícolas de la más alta calidad desde Punucapa, Valdivia", 
-    "logo": "/images/logos/kunu.png",
-    "logoAlt": "Kunu - Asociado Certificado", 
+    "logo":{
+      "image": "/images/logos/kunu.png",
+      "imageAlt": "Kunu - Asociado Certificado", 
+      "backshape": null,
+      "backcolor": null
+    },
     "hasDownload": false
   },
   {
@@ -40,8 +44,12 @@
     },
     "title": "Apicultura Natural Regenerativa", 
     "content": "Pioneros en prácticas regenerativas, comprometidos con la sostenibilidad del ecosistema apícola.", 
-    "logo": "/images/logos/anrescuela.png",
-    "logoAlt": "ANR Escuela - Asociado Certificado", 
+    "logo":{
+      "image": "/images/logos/anrescuela.png",
+      "imageAlt": "ANR Escuela - Asociado Certificado", 
+      "backshape": "bg-rounded",
+      "backcolor": "white"
+    }, 
     "hasDownload": false
   },
   {
