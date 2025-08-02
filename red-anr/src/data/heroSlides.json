@@ -29,8 +29,7 @@
     "logo":{
       "image": "/images/logos/kunu.png",
       "imageAlt": "Kunu - Asociado Certificado", 
-      "backshape": null,
-      "backcolor": null
+      "backshape": "rounded-full bg-white p-2" 
     },
     "hasDownload": false
   },
@@ -47,7 +46,7 @@
     "logo":{
       "image": "/images/logos/anrescuela.png",
       "imageAlt": "ANR Escuela - Asociado Certificado", 
-      "backshape": "bg-rounded",
+      "backshape": "rounded-xl bg-yellow-50/60 p-2",
       "backcolor": "white"
     }, 
     "hasDownload": false

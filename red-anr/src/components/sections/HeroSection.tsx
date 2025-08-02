@@ -83,9 +83,9 @@ export const HeroSection = () => {
             <div className="flex justify-center">
               <div className="relative">
                 <img 
-                  src={slide.logo.imgage} 
-                  alt={slide.logo.imageAlt}                  
-                  className="relative w-80 h-80 object-contain animate-scale-in" 
+                  src={slide.logo.image} 
+                  alt={slide.logo.imageAlt}   
+                  className={`relative w-80 h-80 object-contain animate-scale-in ${slide.logo.backshape}`}
                 /> 
               </div>
             </div>
