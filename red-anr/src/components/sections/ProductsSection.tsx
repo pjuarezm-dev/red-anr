@@ -22,14 +22,14 @@ export const ProductsSection = () => {
           {productsData.map((tienda, index) => (
             <Card key={index} className="bg-card hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border-border overflow-hidden group">
               <div className="relative">
-                <div className="h-54 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center overflow-hidden">
+                <div className="h-54 flex items-center justify-center overflow-hidden">
                   <img
                     src={tienda.imagen}
                     alt={tienda.integrante}
-                    className="w-54 h-54 object-contain transition-transform duration-300 group-hover:scale-110"
+                    className="w-54 h-54 object-contain"
                   /> 
                   {tienda.certified && (
-                    <div className="absolute top-2 right-2 bg-primary text-primary-foreground rounded-full">
+                    <div className="absolute top-0 right-6 bg-primary text-primary-foreground rounded-full">
                       <img src={Certificacion} width="72px"></img>
                     </div>
                   )}
