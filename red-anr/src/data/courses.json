@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "Apicultura Natural Regenerativa",
+    "instructor": "Escuela de Apicultura Natural Regenerativa",
+    "modalidad": "Online + videos técnicos",
+    "descripcion": "Curso completo que abarca desde los principios básicos hasta técnicas avanzadas de manejo regenerativo",
+    "nivel": "Principiante",
+    "enlace": "https://www.apiculturanatural.com/cursos/"
+  },
+  {
+    "titulo": "Servicio Sanitario Natural",
+    "instructor": "ApiVet",
+    "modalidad": "Presencial",
+    "descripcion": "Evaluación del contexto, diagnóstico de las colmenas y plan de acción",
+    "nivel": "Principiante",
+    "enlace": "https://www.apivet.cl/servicios/"
+  },
+  {
+    "titulo": "Apicultura Natural Regenerativa",
+    "instructor": "Raíces del Viento",
+    "modalidad": "Presencial",
+    "descripcion": "En este curso introductorio aprenderás sobre los manejos básicos de la apicultura natural regenerativa, tanto el manejo dentro de la colmena como el manejo alrededor del apiario",
+    "nivel": "Principiante",
+    "enlace": "https://raicesdelviento.org/anr/"
+  }
+]
