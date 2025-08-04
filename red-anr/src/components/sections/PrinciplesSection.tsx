@@ -33,7 +33,7 @@ export const PrinciplesSection = () => {
         <h3 className="text-4xl font-bold text-center text-primary mb-12 font-dancing">
           Los Principios de la Apicultura Natural Regenerativa
         </h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6">
           {principios.map((principio, index) => (
             <Card key={index} className="bg-card/90 border-border hover:shadow-lg transition-all duration-300 hover:scale-105">
               <CardContent className="p-6">
