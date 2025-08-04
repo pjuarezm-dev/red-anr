@@ -1,0 +1,23 @@
+[ 
+  {
+    "nombre": "Kunu", 
+    "descripcion": "Apiturismo", 
+    "imagen": "images/logos/kunu.png",
+    "enlace": "https://www.instagram.com/kunu.valdivia", 
+    "certified": false
+  },
+  {
+    "nombre": "Apivet", 
+    "descripcion": "Asesorías y capacitaciones", 
+    "imagen": "images/logos/apivet.png",
+    "enlace": "https://www.apivet.cl/", 
+    "certified": false
+  }, 
+  {
+    "nombre": "Gabees-Vet", 
+    "descripcion": "Apicultura, servicios y ventas",
+    "imagen": "images/logos/gabees.png",
+    "enlace": "https://www.instagram.com/gabees.vet/", 
+    "certified": false
+  }
+]
