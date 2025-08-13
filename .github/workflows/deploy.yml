@@ -1,48 +1,27 @@
-name: Deploy React to GitHub Pages
-
+name: Build and push to deploy branch
 on:
-  push:
-    branches: [deploy]
+  push: { branches: [main] }
+  workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  contents: write # necesario para pushear a 'deploy'
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20", cache: "npm" }
+
+      - run: npm ci
+      - run: npm run build
+
+      # Copia dist a la rama 'deploy'
+      - name: Deploy to deploy branch
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build
-        run: npm run build # Vite -> genera dist/ ; CRA -> build/
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist # o ./build si no es Vite
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          branch: deploy
+          folder: dist
+          clean: true
