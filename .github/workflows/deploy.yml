@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # necesario para pushear a 'deploy'
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -12,16 +12,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with: { node-version: "20", cache: "npm" }
-        working-directory: ./red-anr
-      - run: npm ci
-      - run: npm run build
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: red-anr/package-lock.json
 
-      # Copia dist a la rama 'deploy'
+      - name: Install deps
+        run: npm ci
+        working-directory: ./red-anr
+
+      - name: Build
+        run: npm run build
+        working-directory: ./red-anr
+
       - name: Deploy to deploy branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: deploy
           folder: red-anr/dist
           clean: true
+          commit-message: "Deploy desde main"
