@@ -1,5 +1,4 @@
-import React from 'react';
-import { BookOpen, Calendar, Star } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { toast } from 'sonner';

@@ -1,6 +1,4 @@
-
-import React from 'react';
-import { PlayCircle, Video, Podcast, Mic, Instagram } from 'lucide-react';
+import { PlayCircle, Video, Podcast,  Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 

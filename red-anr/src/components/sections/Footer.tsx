@@ -1,5 +1,4 @@
-import React from 'react';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import Logo from '/images/logos/ANR_200.png';
 
 export const Footer = () => {
