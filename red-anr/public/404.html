@@ -1,0 +1,11 @@
+<!doctype html>
+<meta charset="utf-8">
+<script>
+  // Redirige cualquier 404 a index.html respetando si es user site o project site
+  (function () {
+    var l = window.location; 
+    var parts = l.pathname.split('/').filter(Boolean); 
+    var base = parts.length ? ('/' + parts[0] + '/') : '/'; 
+    l.replace(base + 'index.html' + l.search + l.hash);
+  })();
+</script>
