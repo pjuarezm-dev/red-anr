@@ -2,7 +2,7 @@
   {
     "id": 1,
     "type": "launch",
-    "background": "/images/photos/launch.png",
+    "background": "images/photos/launch.png",
     "badge": {
       "icon": "Award",
       "text": "Nuevo Lanzamiento"
@@ -12,14 +12,14 @@
     "description": "Apicultura Natural Regenerativa",
     "content": "Garantiza la autenticidad de tus productos apícolas bajo estándares regenerativos certificados.",
     "highlight": "Garantiza la autenticidad",
-    "image": "/images/logos/certificacion.png",
+    "image": "images/logos/certificacion.png",
     "imageAlt": "Sello de Certificación ANR",
     "hasDownload": true
   },
   {
     "id": 2,
     "type": "partner",
-    "background": "/images/photos/partner_1.png",
+    "background": "images/photos/partner_1.png",
     "badge": {
       "icon": "Star",
       "text": "Asociado Certificado"
@@ -27,7 +27,7 @@
     "title": "Kunu", 
     "content": "Productos apícolas de la más alta calidad desde Punucapa, Valdivia", 
     "logo":{
-      "image": "/images/logos/kunu.png",
+      "image": "images/logos/kunu.png",
       "imageAlt": "Kunu - Asociado Certificado", 
       "backshape": "rounded-full bg-white p-2" 
     },
@@ -36,7 +36,7 @@
   {
     "id": 3,
     "type": "partner",
-    "background": "/images/photos/partner_2.png",
+    "background": "images/photos/partner_2.png",
     "badge": {
       "icon": "Star",
       "text": "Asociado Certificado"
@@ -44,7 +44,7 @@
     "title": "Apicultura Natural Regenerativa", 
     "content": "Pioneros en prácticas regenerativas, comprometidos con la sostenibilidad del ecosistema apícola.", 
     "logo":{
-      "image": "/images/logos/anrescuela.png",
+      "image": "images/logos/anrescuela.png",
       "imageAlt": "ANR Escuela - Asociado Certificado", 
       "backshape": "rounded-xl bg-yellow-50/60 p-2",
       "backcolor": "white"
@@ -54,7 +54,7 @@
   {
     "id": 4,
     "type": "network",
-    "background": "/images/photos/network.png",
+    "background": "images/photos/network.png",
     "badge": {
       "icon": "Network",
       "text": "Red Nacional"

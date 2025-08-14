@@ -1,26 +1,26 @@
 [
   {
-    "image":"/images/photos/galery_1.png",
+    "image":"images/photos/galery_1.png",
     "imagealt":"Otoño"
   },
   {
-    "image":"/images/photos/galery_2.png",
+    "image":"images/photos/galery_2.png",
     "imagealt":"Revisión de cosecha"
   },
   {
-    "image":"/images/photos/galery_3.png",
+    "image":"images/photos/galery_3.png",
     "imagealt":"Revisión de apiario"
   },
   {
-    "image":"/images/photos/galery_4.png",
+    "image":"images/photos/galery_4.png",
     "imagealt":"Revisión de cosecha"
   },
   {
-    "image":"/images/photos/galery_5.png",
+    "image":"images/photos/galery_5.png",
     "imagealt":"Charla de manejo sanitario"
   },
   {
-    "image":"/images/photos/galery_6.png",
+    "image":"images/photos/galery_6.png",
     "imagealt":"Charla de manejo sanitario"
   }
 ]

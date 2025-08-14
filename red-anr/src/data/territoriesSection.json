@@ -1,18 +1,18 @@
 [
   {
-    "image":"/images/photos/costa.png",
+    "image":"images/photos/costa.png",
     "imagealt":"Costa"
   },
   {
-    "image":"/images/photos/valle.png",
+    "image":"images/photos/valle.png",
     "imagealt":"Valle"
   },
   {
-    "image":"/images/photos/cordillera.png",
+    "image":"images/photos/cordillera.png",
     "imagealt":"Cordillera"
   },
   {
-    "image":"/images/photos/argentina.png",
+    "image":"images/photos/argentina.png",
     "imagealt":"Internacional"
   }
 ]
