@@ -1,4 +1,4 @@
-import { ShoppingBag, Package, Droplet } from 'lucide-react';
+import { ShoppingBag, Package } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import productsData from '@/data/products.json';
