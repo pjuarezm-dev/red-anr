@@ -29,7 +29,7 @@ export const HeroSection = () => {
         return (
           <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
             <div className="text-left">
-               <div className="inline-flex items-center bg-gradient-to-r from-primary to-accent/20 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 mb-6">
+               <div className="inline-flex items-center bg-gradient-to-r from-primary/20 to-accent/20 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 mb-6">
                 {slide.badge.icon && React.createElement(getIcon(slide.badge.icon), { className: "w-5 h-5 mr-2 text-white" })}
                 <span className="text-white font-semibold">{slide.badge.text}</span>
               </div> 

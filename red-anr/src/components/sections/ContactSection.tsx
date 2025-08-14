@@ -9,7 +9,7 @@ export const ContactSection = () => {
           <h3 className="text-4xl font-bold text-primary mb-8 font-dancing">
             Únete a la Regeneración
           </h3>
-          <div className="bg-gradient-to-b from-primary to-accent rounded-2xl p-12 text-primary-foreground">
+          <div>
             <p className="text-2xl font-light mb-6 italic">
               "Cada colmena es un universo. Cada abeja, un maestro.
               Juntos, tejemos la red que regenera nuestros territorios."
@@ -18,7 +18,7 @@ export const ContactSection = () => {
               <Mail className="w-6 h-6" />
               <a
                 href="mailto:anrchile.ag@gmail.com"
-                className="hover:text-accent transition-colors underline decoration-2 underline-offset-4 font-medium"
+                className="hover:text-primary transition-colors underline decoration-2 underline-offset-4 font-medium"
               >
                 anrchile.ag@gmail.com
               </a>

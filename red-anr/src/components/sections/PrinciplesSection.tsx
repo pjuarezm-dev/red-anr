@@ -37,7 +37,7 @@ export const PrinciplesSection = () => {
           {principios.map((principio, index) => (
             <Card key={index} className="bg-card/90 border-border hover:shadow-lg transition-all duration-300 hover:scale-105">
               <CardContent className="p-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4"> 
                   <span className="text-primary-foreground font-bold text-lg">{index + 1}</span>
                 </div>
                 <h4 className="text-xl not-only:text-primary mb-3 font-medium">{principio.title}</h4>

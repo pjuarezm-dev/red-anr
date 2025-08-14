@@ -39,9 +39,8 @@ export const ServiceSection = () => {
                 <p className="font-medium mb-4 leading-relaxed">
                   {tienda.descripcion}
                 </p> 
-                <Button
-                  onClick={() => window.open(tienda.enlace, '_blank')}
-                  className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-semibold rounded-full transition-all duration-300"
+                <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6 py-2 rounded-full transition-all duration-300"
+                  onClick={() => window.open(tienda.enlace, '_blank')} 
                 >
                   <ShoppingBag className="w-4 h-4 mr-2" />
                   Servicios disponibles
