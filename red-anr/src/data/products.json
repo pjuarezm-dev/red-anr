@@ -6,7 +6,7 @@
     "productos": ["Miel de Ulmo"],
     "imagen": "images/logos/kunu.png",
     "enlace": "https://www.instagram.com/kunu.valdivia", 
-    "certified": true
+    "certified": false
   },
   {
     "nombre": "Miel Pura Valymu",
