@@ -19,7 +19,7 @@ export const Footer = () => {
         <div className="flex justify-center space-x-6 text-primary-foreground/80">
           <div className="flex items-center">
             <Mail className="w-4 h-4 mr-2" />
-            anrchile.ag@gmail.com
+            contacto@redanr.org
           </div>
         </div>
       </div>

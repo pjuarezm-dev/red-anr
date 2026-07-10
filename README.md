@@ -68,7 +68,7 @@ Si deseas colaborar, eres bienvenido/a. Puedes abrir un issue para sugerencias, 
 ## 📬 Contacto
 
 Para más información o consultas, escribe a:  
-📧 anrchile.ag@gmail.com
+📧 contacto@redanr.org
 
 ## 📄 Licencia
 

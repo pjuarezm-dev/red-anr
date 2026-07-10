@@ -17,13 +17,13 @@ export const ContactSection = () => {
             <div className="flex items-center justify-center space-x-3 text-lg">
               <Mail className="w-6 h-6" />
               <a
-                href="mailto:anrchile.ag@gmail.com"
+                href="mailto:contacto@redanr.org"
                 className="hover:text-primary transition-colors underline decoration-2 underline-offset-4 font-medium"
               >
-                anrchile.ag@gmail.com
+                contacto@redanr.org
               </a>
             </div>
-            <p className="text-primary-foreground/80 mt-4 font-light">
+            <p className="text-xl font-light mb-6 italic">
               Conecta con nosotros y sé parte del cambio
             </p>
           </div>
