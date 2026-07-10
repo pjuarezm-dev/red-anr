@@ -1,3 +1,12 @@
+import { Card, CardContent } from "@/components/ui/card"
+import Autoplay from "embla-carousel-autoplay"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 import membersData from '@/data/members.json'; 
 
 export const MembersSection = () => {
@@ -7,27 +16,33 @@ export const MembersSection = () => {
         <h3 className="text-4xl font-bold text-center text-primary mb-12 font-dancing">
           Nuestros Integrantes
         </h3>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <Carousel className="w-full" opts={{align: "start", loop: true,}} plugins={[Autoplay({delay: 3000,}),]}>
+          <CarouselContent>
           {membersData.map((apicultor, i) => (
-            <div key={i} className="relative  flex items-center justify-center h-full">
-             {apicultor.link ? (
+             <CarouselItem key={i} className="basis-1/2 lg:basis-1/5"> 
+              <Card className="bg-transparent border-0 shadow-none">
+                <CardContent className="flex aspect-square items-center justify-center">
+                  {apicultor.link ? (
                 <a href={apicultor.link} target="_blank" rel="noopener noreferrer">
                   <img
                     src={apicultor.src}
                     title={apicultor.title}
-                    className="p-6 transition-all duration-300 hover:scale-105"
+                    className="transition-all duration-300 hover:scale-105"
                   />
                 </a>
               ):(
                 <img
                   src={apicultor.src}
                   title={apicultor.title}
-                    className="p-6 transition-all duration-300 hover:scale-105"
+                    className="transition-all duration-300 hover:scale-105"
                 />
               )}
-            </div>
-          ))}
-        </div>
+                </CardContent>
+              </Card> 
+             </CarouselItem> 
+          ))} 
+          </CarouselContent> 
+        </Carousel>
       </div>
     </section>
   );

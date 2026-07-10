@@ -58,5 +58,29 @@
     "title": "Gabees",
     "link": "https://www.instagram.com/gabees.vet/",
     "certified": false
+  },
+  {
+    "src": "images/logos/gotadesol.png",
+    "title": "Gota de Sol",
+    "link": "https://www.instagram.com/gotadesol/",
+    "certified": false
+  },
+  {
+    "src": "images/logos/lagunamorales.png",
+    "title": "Laguna Morales",
+    "link": "hhttps://www.instagram.com/campolagunamorales/",
+    "certified": false
+  },
+  {
+    "src": "images/logos/sabiduriasilvestre.jpg",
+    "title": "Sabiduria Silvestre",
+    "link": "https://www.instagram.com/sabiduria.silvestre/",
+    "certified": false
+  },
+  {
+    "src": "images/logos/almadecolmena.png",
+    "title": "Alma de Colmena",
+    "link": null,
+    "certified": false
   }
 ]
